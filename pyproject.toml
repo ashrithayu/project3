@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project3"
+version = "0.1.0"
+description = "Data Aggregation, Grouping, Reshaping & Analysis"
+authors = ["ashritha reddy <adevaram@mail.yu.edu>"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.dependencies]
+python = "^3.8"
+seaborn = "^0.11.2"
+matplotlib = "^3.5.3"
+pandas = "^1.4.3"
